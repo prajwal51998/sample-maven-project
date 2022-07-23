@@ -12,7 +12,7 @@ tools {
     stages {
       stage('clean up') {
             steps {
-                echo 'Hello build directory'
+                echo 'Hello build the dir 1'
                 deleteDir()
             }
         }
